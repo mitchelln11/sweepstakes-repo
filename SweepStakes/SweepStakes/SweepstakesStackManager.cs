@@ -16,7 +16,19 @@ namespace SweepStakes
 
         }
 
+        
+
         // Member methods
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+
+        }
+
+        public Sweepstakes GetSweepstakes()
+        {
+            // Put code here
+        }
+
         public void Stack()
         {
 

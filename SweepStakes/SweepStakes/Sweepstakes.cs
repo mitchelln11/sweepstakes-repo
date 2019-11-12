@@ -20,13 +20,14 @@ namespace SweepStakes
         // Member methods
         public void RegisterContestant()
         {
+            Dictionary<int, int> input = new Dictionary<int, int>();
             // Code here
         }
 
-        public Contestant PickWinner()
-        {
-            // Code here
-        }
+        //public Contestant PickWinner()
+        //{
+        //    // Code here
+        //}
 
         public void PrintContestantInfo()
         {
