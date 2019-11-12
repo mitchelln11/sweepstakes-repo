@@ -8,5 +8,13 @@ namespace SweepStakes
 {
     class MarketingFirm
     {
+        // Member Variables
+
+        // Constructor
+        public MarketingFirm()
+        {
+
+        }
+        // Member methods
     }
 }

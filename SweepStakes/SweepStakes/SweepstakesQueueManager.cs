@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class SweepstakesQueueManager
+    public class SweepstakesQueueManager : ISweepstakesManager
     {
+        // Member Variables
+
+        // Constructor
+        public SweepstakesQueueManager()
+        {
+
+        }
+        // Member methods
+        public void Queue()
+        {
+            // Add code
+        }
     }
 }
