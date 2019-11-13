@@ -9,11 +9,11 @@ namespace SweepStakes
     public class Sweepstakes
     {
         // Member Variables
-        Dictionary<int, Contestant> contestants;
-        Random rand;
+        public Dictionary<int, Contestant> contestants;
+        public Random rand;
         
         // Constructor
-        public Sweepstakes()
+        public Sweepstakes(string name)
         {
             contestants = new Dictionary<int, Contestant>();
             rand = new Random();

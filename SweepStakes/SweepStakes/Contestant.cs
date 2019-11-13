@@ -19,7 +19,7 @@ namespace SweepStakes
         {
             firstName = UserInterface.GetFirstName();
             lastName = UserInterface.GetLastName();
-            emailAddress = UserInterface.Getemail();
+            emailAddress = UserInterface.GetEmail();
             registrationNumber = UserInterface.GetRegistration();
         }
 
