@@ -10,15 +10,8 @@ namespace SweepStakes
     {
         static void Main(string[] args)
         {
-            Contestant contestant = new Contestant();
-            contestant.DisplayContestantInfo();
-
             Console.WriteLine("How would you like to manage your sweepstakes?/n" +
                 "Please type Stack or Queue");
-
-
-            MarketingFirm firm = new MarketingFirm(new SweepstakesQueueManager());
-            firm.GetSweepstakeName();
         }
     }
 }
