@@ -58,9 +58,9 @@ namespace SweepStakes
             return name;
         }
 
-        //public static DisplayWinner()
-        //{
-        //    // Code here
-        //}
+        public static void DisplayWinner(Contestant contestant)
+        {
+            Console.WriteLine("The winner is " + contestant.firstName + " " + contestant.lastName + "!");
+        }
     }
 }
