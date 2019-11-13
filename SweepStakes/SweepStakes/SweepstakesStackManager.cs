@@ -27,7 +27,8 @@ namespace SweepStakes
 
         public Sweepstakes GetSweepstakes()
         {
-            // Put code here
+            Sweepstakes sweepstakes = stack.Pop();
+            return sweepstakes;
         }
 
         public void Stack(ISweepstakesManager sweepstakes)

@@ -32,9 +32,13 @@ namespace SweepStakes
             return contestant;
         }
 
-        public void PrintContestantInfo()
+        public void PrintContestantInfo(Contestant contestant)
         {
             // Code here
+            Console.WriteLine(contestant.firstName);
+            Console.WriteLine(contestant.lastName);
+            Console.WriteLine(contestant.emailAddress);
+            Console.WriteLine(contestant.registrationNumber);
         }
     }
 }
