@@ -21,25 +21,10 @@ namespace SweepStakes
             sweepName = UserInterface.GetSweepstakeName();
         }
 
-        // Member methods
-        //public void MakeSweepstake()
-        //{
-        //    //string sweepstakesName = UserInterface.GetManagerOption();
-        //    //Sweepstakes newSweepstake = new Sweepstakes(sweepstakesName);
-        //    //manager.InsertSweepstakes(sweepstakesName);
-        //}
-
         public void GetSweepName()
         {
             string sweepstakesName = UserInterface.GetSweepstakeName();
             Sweepstakes newSweepstake = new Sweepstakes(sweepstakesName);
-        }
-
-        public void CreateSweepstake()
-        {
-            //Sweepstakes sweep = manager.GetSweepstakes();
-            //Contestant contestant = sweep.PickWinner();
-            //UserInterface.DisplayWinner(contestant, sweep);
         }
     }
 }
