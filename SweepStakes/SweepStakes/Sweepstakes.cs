@@ -9,19 +9,18 @@ namespace SweepStakes
     public class Sweepstakes
     {
         // Member Variables
-        public List<Contestant> contestants;
+        Dictionary<int, Contestant> contestants;
         
         // Constructor
         public Sweepstakes()
         {
-            contestants = new List<Contestant>();
+            contestants = new Dictionary<int, Contestant>();
         }
 
         // Member methods
-        public void RegisterContestant()
+        public void RegisterContestant(Contestant contestant)
         {
-            Dictionary<int, int> input = new Dictionary<int, int>();
-            // Code here
+            contestants.Add(contestant.registrationNumber, contestant);
         }
 
         //public Contestant PickWinner()

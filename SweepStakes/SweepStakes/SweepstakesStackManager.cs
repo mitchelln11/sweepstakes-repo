@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    public class SweepstakesStackManager : ISweepstakesManager
-    {
-        // Member Variables
+    //public class SweepstakesStackManager : ISweepstakesManager
+    //{
+    //    // Member Variables
 
-        // Constructor
-        public SweepstakesStackManager()
-        {
+    //    // Constructor
+    //    //public SweepstakesStackManager()
+    //    //{
 
-        }
+    //    //}
 
         
 
-        // Member methods
-        public void InsertSweepstakes(Sweepstakes sweepstakes)
-        {
+    //    // Member methods
+    //    //public void InsertSweepstakes(Sweepstakes sweepstakes)
+    //    //{
 
-        }
+    //    //}
 
-        public Sweepstakes GetSweepstakes()
-        {
-            // Put code here
-        }
+    //    //public Sweepstakes GetSweepstakes()
+    //    //{
+    //    //    // Put code here
+    //    //}
 
-        public void Stack()
-        {
+    //    //public void Stack()
+    //    //{
 
-        }
-    }
+    //    //}
+    //}
 }

@@ -6,20 +6,30 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class Contestant
+    public class Contestant
     {
         // Member variables
-        private string firstName;
-        private string lastName;
-        private string emailAddress;
-        private int registrationNumber;
+        public string firstName;
+        public string lastName;
+        public string emailAddress;
+        public int registrationNumber;
 
         // Constructor
         public Contestant()
         {
-
+            firstName = UserInterface.GetFirstName();
+            lastName = UserInterface.GetLastName();
+            emailAddress = UserInterface.Getemail();
+            registrationNumber = UserInterface.GetRegistration();
         }
 
         // Member methods
+        public void DisplayContestantInfo()
+        {
+            Console.WriteLine(firstName);
+            Console.WriteLine(lastName);
+            Console.WriteLine(emailAddress);
+            Console.WriteLine(registrationNumber);
+        }
     }
 }
