@@ -9,11 +9,12 @@ namespace SweepStakes
     class MarketingFirm
     {
         // Member Variables
+        public ISweepstakesManager manager;
 
         // Constructor
-        public MarketingFirm()
+        public MarketingFirm(ISweepstakesManager manager)
         {
-
+            this.manager = manager; // dependancy injection
         }
         // Member methods
     }

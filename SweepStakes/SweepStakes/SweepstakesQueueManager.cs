@@ -9,7 +9,6 @@ namespace SweepStakes
     public class SweepstakesQueueManager : ISweepstakesManager
     {
         // Member Variables
-        public ISweepstakesManager sweepstakes;
         public Queue<Sweepstakes> queue;
 
         // Constructor

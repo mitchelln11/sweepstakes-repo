@@ -32,7 +32,7 @@ namespace SweepStakes
             return contestant;
         }
 
-        public void PrintContestantInfo(Contestant contestant)
+        public void PrintContestantInfo(Contestant contestant) // Not needed,just here for testing purposes
         {
             // Code here
             Console.WriteLine(contestant.firstName);

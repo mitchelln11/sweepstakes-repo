@@ -9,14 +9,12 @@ namespace SweepStakes
     public class SweepstakesStackManager : ISweepstakesManager
     {
         // Member Variables
-        public ISweepstakesManager sweepstakes;
         public Stack<Sweepstakes> stack; 
 
         // Constructor
-        public SweepstakesStackManager(Sweepstakes sweepstakes)
+        public SweepstakesStackManager()
         {
             stack = new Stack<Sweepstakes>();
-            //this.sweepstakes = sweepstakes;
         }
 
         // Member methods
@@ -29,11 +27,6 @@ namespace SweepStakes
         {
             Sweepstakes sweepstakes = stack.Pop();
             return sweepstakes;
-        }
-
-        public void Stack(ISweepstakesManager sweepstakes)
-        {
-            this.sweepstakes = sweepstakes;
         }
     }
 }
